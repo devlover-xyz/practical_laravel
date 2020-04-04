@@ -7,6 +7,9 @@ use Illuminate\Http\Request;
 
 class KendaraanController extends Controller
 {
+    /**
+     * owner index
+     */
     public function ownerIndex()
     {
         $owner = Owner::all();
